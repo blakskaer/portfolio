@@ -1,6 +1,6 @@
 var contactMe = [
     {
-        p: 'I\'m looking forward to hearing from you.'
+        p: 'Always happy to hear from you.'
     },
 ];
 

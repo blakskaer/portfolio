@@ -76,8 +76,6 @@ __webpack_require__(2);
 
 __webpack_require__(3);
 
-__webpack_require__(4);
-
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -101,65 +99,19 @@ function changeValue() {
     }
 }
 
-setInterval(changeValue, 1700);
+setInterval(changeValue, 1600);
 
 /***/ }),
 /* 2 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-// var projects = [
-//     {
-//         id: 'project3',
-//         title: 'cargo',
-//         alt: '',
-//         icon: '<i class="fa fa-5x fa-gamepad"></i>',
-//         description: 'game written in python',
-//         language: 'python',
-//         link: ''
-//     },
-//     {
-//         id: 'project2',
-//         title: 'cargo',
-//         alt: '',
-//         icon: '<i class="fa fa-5x fa-gamepad"></i>',
-//         description: 'game written in python',
-//         language: 'python',
-//         link: ''
-//     },
-//     {
-//         id: 'project1',
-//         title: 'cargo',
-//         alt: '',
-//         icon: '<i class="fa fa-5x fa-gamepad"></i>',
-//         description: 'game written in python',
-//         language: 'python',
-//         link: ''
-//     },
-// ];
 
-// {
-//     var i = projects.length;
-//     while(i--) {
-//         const workIcons = 
-//         `<a href={} id="icon-${projects[i].id}" class="projectsClass">${projects[i].icon}</a>`;
-//         document.getElementById('work-icons').innerHTML += workIcons;
-//     };
-// }
 
-// {
-//     var i = projects.length;
-//     while(i--) {
-//         const workText = 
-//         `<div id="text-${projects[i].id}" >
-//             <h2>${projects[i].title}</h2>
-//             <h3>${projects[i].description}</h3>
-//             <p>${projects[i].language}</p>
-//         </div>`;
-//         document.getElementById('work-text').innerHTML += workText;
-//     };
-// }
+var aboutText = '<p>I\'m a web developer living in Berlin.<br>\nI enjoy creating simple and aesthetic solutions through clean code,<br> making use of my background in cultural studies, psychology of language and SEO.<br>\nBesides coding I love learning new languages, running and making music.</p>';
 
+var descriptionText = aboutText;
+document.getElementById('description').innerHTML = descriptionText;
 
 /***/ }),
 /* 3 */
@@ -168,20 +120,8 @@ setInterval(changeValue, 1700);
 "use strict";
 
 
-var aboutText = '<p>I\'m a web developer living in Berlin.<br>\nI enjoy creating simple and aesthetic solutions through clean code,<br> making use of my background in cultural studies and psychology of language.<br>\nBesides coding I love learning new languages, running and creating music.</p>';
-
-var descriptionText = aboutText;
-document.getElementById('description').innerHTML = descriptionText;
-
-/***/ }),
-/* 4 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
 var contactMe = [{
-    p: 'I\'m looking forward to hearing from you.'
+    p: 'Always happy to hear from you.'
 }];
 
 {

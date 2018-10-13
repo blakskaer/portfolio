@@ -15,5 +15,5 @@ function changeValue() {
     }
 }
 
-setInterval(changeValue, 1700);
+setInterval(changeValue, 1600);
 
